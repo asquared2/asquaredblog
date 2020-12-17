@@ -25,7 +25,7 @@ const Start = () => {
                 Who am I? 
               </h2>
               <p className="content has-text-centered-mobile" css={{fontSize: "18px"}}>
-              T'Challa, a member of the royal family of the fictional African country of Wakanda. After the death my father, I claimed the throne and the role of Black Panther. I was exposed to a mystical herb that enhanced my strength and agility to near-superhuman levels. 
+              T'Challa, a member of the royal family of the fictional African country of Wakanda. After the death my father, I claimed the throne and the role of Black Panther. I was exposed to a mystical herb that enhanced my strength and agility to near-superhuman levels and awesomely powers. 
               </p>
             </div>
             <div className="column is-4">
