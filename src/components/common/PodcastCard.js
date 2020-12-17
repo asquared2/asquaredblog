@@ -18,7 +18,7 @@ const PodcastCard = ({ post }) => {
                     <div className="card-content">
                     <div className='' css={{display: "flex", marginBottom: "-10px"}}>
                                 {post.tags && (
-                                    <div className="title has-text-primary mr-3 is-uppercase" css={{fontSize: "14px", marginBottom: "20px"}}>
+                                    <div className="title has-text-primary mr-3 is-uppercase" css={{fontSize: "12px", marginBottom: "20px"}}>
                                         <Tags
                                             post={post}
                                             visibility="public"
@@ -27,7 +27,7 @@ const PodcastCard = ({ post }) => {
                                     </div>
                                 )}
                                 {post.featured && (
-                                    <div className="title mb-4 has-text-primary is-uppercase" css={{fontSize: "14px"}}>
+                                    <div className="title mb-4 has-text-primary is-uppercase" css={{fontSize: "12px"}}>
                                         Featured
                                     </div>
                                 )}
