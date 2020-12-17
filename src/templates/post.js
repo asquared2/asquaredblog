@@ -24,7 +24,7 @@ const Post = ({ data, location }) => {
     const post = data.ghostPost
     const relatedPosts = data.allGhostPost.edges
     const readingTime = readingTimeHelper(post)
-    const shareUrl = `https://frontendsolved.com/${post.slug}/`
+    const shareUrl = `https://asquaredblog.com/${post.slug}/`
     console.log(shareUrl)
 
 
