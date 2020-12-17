@@ -4,7 +4,7 @@
     "contentApiKey": "6f0a0fa089aa078bcbcceee1fa"
   },
   "production": {
-    "apiUrl": "https://ghost.frontendsolved.com",
-    "contentApiKey": "5015a5a67d198c871acc271527"
+    "apiUrl": "https://ghost.asquaredblog.com",
+    "contentApiKey": "7a0a771ca9ccc027e7f8addf8b"
   }
 }
