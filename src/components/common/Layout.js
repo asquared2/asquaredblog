@@ -6,6 +6,8 @@ import { Helmet } from 'react-helmet';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { jsx } from 'emotion';
+import {FaTwitterSquare} from 'react-icons/fa';
+
 
 import { Navigation } from '.';
 import config from '../../utils/siteConfig';
@@ -26,7 +28,7 @@ import '../../styles/styles.scss';
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node;
     const twitterUrl = site.twitter
-        ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}`
+        ? `https://twitter.com/${site.twitter.replace(/^@/, `A_H_bakri`)}`
         : null;
     const facebookUrl = site.facebook
         ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}`
@@ -125,7 +127,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        {/* <img src={Twitter} alt="Icon" /> */}
+                                      <FaTwitterSquare />
                                     </a>
                                 </div>
                             </div>
