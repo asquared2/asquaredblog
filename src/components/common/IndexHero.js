@@ -23,7 +23,7 @@ const IndexHero = props => {
                   {props.cta}
                 </Link>
                 <Link
-                  to="/articles/"
+                  to="/blog/"
                   className="button is-medium is-light has-text-weight-bold"
                 >
                   {props.cta2}
