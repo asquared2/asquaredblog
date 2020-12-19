@@ -116,22 +116,21 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         </div>
                         <hr />
                         <div className="columns">
-                            <div className="column">
+                            <div className="column is-6 is-flex">
                                 <h4 className="title is-4">
-                                    Follow me on social media
+                                    Follow me on Twitter
                                 </h4>
-                                <div className="buttons">
-                                    <a
-                                        className="button"
+                                <div>
+                                    <a className="ml-2"
                                         href={twitterUrl}
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                      <FaTwitterSquare />
+                                      <FaTwitterSquare size="2em"/>
                                     </a>
                                 </div>
                             </div>
-                            <div className="column has-text-centered has-text-right-tablet">
+                            <div className="column is-6 has-text-centered has-text-right-tablet">
                                 <p className="subtitle is-6">
                                     © 2020 ASquared. All right reserved.
                                 </p>
