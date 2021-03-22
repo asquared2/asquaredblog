@@ -7,11 +7,11 @@ The Ghost CMS backend is hosted on DigitalOcean and the GatsbyJS frontend is dep
 
 &nbsp;
 
-![gatsby-starter-ghost](./src/images/asquaredweb.png)
+![asquared-blog](./src/images/asquaredweb.png)
 
 &nbsp;
 
-# Gatsby Starter Ghost
+## Gatsby Starter Ghost
 
 A starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org)
 
